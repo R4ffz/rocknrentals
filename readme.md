@@ -82,8 +82,9 @@ rocknrentals/
     ````sql
    CREATE DATABASE rocknrentals;
   Atualize as credenciais em application.properties.
+  
 4. Inicie o servidor Spring Boot:
-    ````bash
+    ```bash
       ./mvnw spring-boot:run
 5. Abra o index.html no seu navegador.
 
