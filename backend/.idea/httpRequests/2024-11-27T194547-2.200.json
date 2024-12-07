@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Guitarra Fender",
+    "category": "GUITAR",
+    "brand": "Fender",
+    "pricePerDay": 50.0,
+    "availability": true
+  },
+  {
+    "id": 2,
+    "name": "Guitarra Fender",
+    "category": "GUITAR",
+    "brand": "Fender",
+    "pricePerDay": 50.0,
+    "availability": true
+  },
+  {
+    "id": 3,
+    "name": "Guitarra Fender",
+    "category": "GUITAR",
+    "brand": "Fender",
+    "pricePerDay": 50.0,
+    "availability": true
+  },
+  {
+    "id": 4,
+    "name": "Guitarra Gibson",
+    "category": "GUITAR",
+    "brand": "Gibson",
+    "pricePerDay": 70.0,
+    "availability": true
+  }
+]

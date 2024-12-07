@@ -1,0 +1,8 @@
+{
+  "id": 5,
+  "name": "Guitarra Gibson",
+  "category": "GUITAR",
+  "brand": "Gibson",
+  "pricePerDay": 70.0,
+  "availability": true
+}

@@ -1,0 +1,30 @@
+
+### Listar todos os usuários
+GET http://localhost:8080/api/users
+
+### Criar um novo usuário
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "email": "rafael@gmail.com",
+  "password": "senha123",
+  "name": "Rafael Barros",
+  "dateOfBirth": "2000-01-01"
+}
+
+### Atualizar um usuário
+PUT http://localhost:8080/api/users/1
+Content-Type: application/json
+
+{
+  "email": "rafael_updated@gmail.com",
+  "password": "novaSenha123",
+  "name": "Rafael Barros Updated",
+  "dateOfBirth": "2000-01-01"
+}
+
+### Deletar um usuário
+DELETE http://localhost:8080/api/users/1
+
+

@@ -1,0 +1,190 @@
+DELETE http://localhost:8080/api/rentals/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-11-27T194548-1.500.json
+
+###
+
+GET http://localhost:8080/api/rentals/user/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-11-27T194548-3.200.json
+
+###
+
+GET http://localhost:8080/api/rentals
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-11-27T194548-2.200.json
+
+###
+
+POST http://localhost:8080/api/rentals
+Content-Type: application/json
+Content-Length: 58
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "instrumentId": 1,
+  "userId": 1,
+  "rentalDays": 15
+}
+
+<> 2024-11-27T194548.400.json
+
+###
+
+DELETE http://localhost:8080/api/users/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+PUT http://localhost:8080/api/users/1
+Content-Type: application/json
+Content-Length: 137
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "rafael_updated@gmail.com",
+  "password": "novaSenha123",
+  "name": "Rafael Barros Updated",
+  "dateOfBirth": "2000-01-01"
+}
+
+<> 2024-11-27T194548-1.200.json
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+Content-Length: 117
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "rafael@gmail.com",
+  "password": "senha123",
+  "name": "Rafael Barros",
+  "dateOfBirth": "2000-01-01"
+}
+
+<> 2024-11-27T194548.500.json
+
+###
+
+GET http://localhost:8080/api/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-11-27T194548.200.json
+
+###
+
+DELETE http://localhost:8080/api/instruments/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+PUT http://localhost:8080/api/instruments/1
+Content-Type: application/json
+Content-Length: 133
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Guitarra Gibson Les Paul",
+  "category": "GUITAR",
+  "brand": "Gibson",
+  "pricePerDay": 80.00,
+  "availability": true
+}
+
+<> 2024-11-27T194547-3.200.json
+
+###
+
+POST http://localhost:8080/api/instruments
+Content-Type: application/json
+Content-Length: 124
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Guitarra Gibson",
+  "category": "GUITAR",
+  "brand": "Gibson",
+  "pricePerDay": 70.00,
+  "availability": true
+}
+
+<> 2024-11-27T194547.201.json
+
+###
+
+GET http://localhost:8080/api/instruments/available
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-11-27T194547-2.200.json
+
+###
+
+GET http://localhost:8080/api/instruments/category/GUITAR
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-11-27T194547-1.200.json
+
+###
+
+GET http://localhost:8080/api/instruments
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-11-27T194547.200.json
+
+###
+
+POST http://localhost:8080/api/instruments
+Content-Type: application/json
+Content-Length: 124
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Guitarra Gibson",
+  "category": "GUITAR",
+  "brand": "Gibson",
+  "pricePerDay": 70.00,
+  "availability": true
+}
+
+<> 2024-11-27T194500.201.json
+
+###
+
